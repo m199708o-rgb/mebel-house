@@ -15,7 +15,7 @@
 }
 
 body{
-     background:#e8dccd;
+     background:#f6f2ec;
     color:#2d2d2d;
 }
 
@@ -29,6 +29,8 @@ header{
 header h1{
     font-size:36px;
     margin-bottom:10px;
+ margin-top: -80px;
+    padding: 40px 20px;
 }
 
 header p{
@@ -42,19 +44,9 @@ header p{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    min-height:500px;
+    min-height:100px;
     color:white;
     position:relative;
-}
-.hero::before{
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(255,255,255);
-    opacity: 50%;
 }
 
 .hero h2{
@@ -65,6 +57,16 @@ header p{
 .hero p{
     margin-bottom:25px;
     color:#555;
+}
+.hero::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(255,255,255);
+    opacity: 50%;
 }
 
 .btn{
@@ -146,13 +148,19 @@ footer{
     padding:25px;
     margin-top:40px;
 }
+.logo{
+    width:120px;
+    height:auto;
+    margin-bottom:0px;
+}
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>🏠 MEBEL HOUSE</h1>
+<p><img src="logo.png" alt="MEBEL HOUSE" class="logo"></p>
+    <h1> MEBEL HOUSE</h1>
     <p>Мебель на заказ по индивидуальным размерам</p>
 </header>
 
