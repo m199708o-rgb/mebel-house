@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MEBEL HOUSE</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#2d2d2d;
+}
+
+header{
+    background:#6B4F3A;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h2{
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+.hero p{
+    margin-bottom:25px;
+    color:#555;
+}
+
+.btn{
+    display:inline-block;
+    background:#6B4F3A;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:12px;
+    margin:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#523b2a;
+}
+
+.section{
+    padding:40px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:28px;
+}
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card span{
+    font-size:40px;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.feature{
+    background:white;
+    padding:20px;
+    border-radius:16px;
+    text-align:center;
+}
+
+footer{
+    background:#2d2d2d;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏠 MEBEL HOUSE</h1>
+    <p>Мебель на заказ по индивидуальным размерам</p>
+</header>
+
+<section class="hero">
+    <h2>Создаем мебель вашей мечты</h2>
+
+    <p>
+        Шкафы, кухни, прихожие, гардеробные и другая мебель
+        по вашим размерам.
+    </p>
+
+    <a href="catalog.html" class="btn">🛋 Каталог мебели</a>
+    <a href="#" class="btn">📸 Наши работы</a>
+</section>
+
+<section class="section">
+    <h2 class="section-title">Популярные категории</h2>
+
+    <div class="categories">
+
+        <div class="card">
+           <img src="images/гардероб.jpeg">
+            <h3>Шкафы</h3>
+        </div>
+
+        <div class="card">
+            <img src="images/прихожка.jpeg">
+            <h3>Прихожие</h3>
+        </div>
+
+        <div class="card">
+           <img src="images/кухня.jpeg">
+            <h3>Кухни</h3>
+        </div>
+
+        <div class="card">
+            <img src="images/Шкаф гардероб.jpeg">
+            <h3>Гардеробные</h3>
+        </div>
+
+        <div class="card">
+           <img src="images/divan.jpeg">
+            <h3>Спальни</h3>
+        </div>
+
+        <div class="card">
+            <span>📚</span>
+            <h3>Офисная мебель</h3>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section-title">Почему выбирают нас</h2>
+
+    <div class="features">
+
+        <div class="feature">
+            ⭐ Качественные материалы
+        </div>
+
+        <div class="feature">
+            📏 Индивидуальные размеры
+        </div>
+
+        <div class="feature">
+            🚚 Доставка и установка
+        </div>
+
+        <div class="feature">
+            🛠 Гарантия качества
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>📞 +992 98 123 45 67</p>
+    <p>📍 г. Душанбе, Республика Таджикистан</p>
+    <p>MEBEL HOUSE © 2026</p>
+</footer>
+
+</body>
+</html>
